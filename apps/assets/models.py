@@ -26,6 +26,7 @@ class ServerInfo(models.Model):
     update_time = models.DateTimeField(auto_now=True, null=True,
                                   verbose_name='更新时间', blank=True)
 
+
     class Meta:
         db_table = 'wisops_server_info_t'
         verbose_name = '服务器资产表'
